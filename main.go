@@ -6,6 +6,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	log "github.com/sirupsen/logrus"
+	"github.com/amankapoor/prometheus-common-log-to-file"
 	"github.com/prometheus/common/version"
 	"github.com/shamil/burrow_exporter/exporter"
 	"gopkg.in/alecthomas/kingpin.v2"
