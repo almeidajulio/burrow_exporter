@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/common/log"
+	"github.com/amankapoor/prometheus-common-log-to-file"
 )
 
 // If we are missing a status, it will return 0
