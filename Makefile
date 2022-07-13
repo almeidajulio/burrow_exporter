@@ -5,7 +5,7 @@ PREFIX ?= $(shell pwd)
 build:
 	@command -v promu >/dev/null || { \
 		echo ">> installing promu"; \
-		GO111MODULE=off GOOS= GOARCH= go get -u github.com/prometheus/promu; \
+		GO111MODULE=on GOOS= GOARCH= go get -u github.com/prometheus/promu; \
 	}
 
 	@promu build --prefix $(PREFIX)
